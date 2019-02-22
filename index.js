@@ -140,9 +140,9 @@ $('#form').alpaca({
 										initialiseTable(res)
 									} else {
 										const datatable = $('#votes').DataTable()
-								    datatable.clear();
-								    datatable.rows.add(votesFromRes(res));
-								    datatable.draw();
+										datatable.clear();
+										datatable.rows.add(votesFromRes(res));
+										datatable.draw();
 									}
 									$('#result-container').show()
 								})
